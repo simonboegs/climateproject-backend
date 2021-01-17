@@ -13,6 +13,9 @@ def getResults(coords):
     results = {}
     results['temperature'] = getTemperatureResults(coords)
     #results['flood'] = getFloodStats(coords)
+    results['fireHistory'] = getFireStats(coords)
+    if results['fireHistory'] == {}:
+        del results['fireHistory']
     return results
 
 
@@ -45,3 +48,15 @@ def getFloodStats(coords):
     state = data['state_name']
     county = data['county_name']
     return flood[state][county]
+
+def getFireStats(coords):
+    with open('data/fireHistory.json','r') as f:
+        fire = json.load(f)
+    s = 'https://geo.fcc.gov/api/census/area?lat=' + coords['latitude'] + '&lon=' + coords['longitude'] + '&format=json'
+    res = requests.get(s)
+    data = res.json()['results']
+    state = data['state_name']
+    if state in fire:
+        return fire[state]
+    return {}
+    
