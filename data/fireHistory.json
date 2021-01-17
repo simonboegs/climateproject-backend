@@ -1,0 +1,464 @@
+{
+  "Arizona": {
+    "2010": {
+      "numofFires": 1601,
+      "acresBurned": 76318
+    },
+    "2011":{
+      "numofFires": 1988,
+      "acresBurned": 1016428
+    },
+    "2012":{
+      "numofFires": 1684,
+      "acresBurned": 216090
+    },
+    "2013":{
+      "numofFires": 1756,
+      "acresBurned": 105281
+    },
+    "2014":{
+      "numofFires": 1543,
+      "acresBurned": 205199
+    },
+    "2015":{
+      "numofFires": 1662,
+      "acresBurned": 160152
+    },
+    "2016":{
+      "numofFires": 2288,
+      "acresBurned": 308245
+    },
+    "2017":{
+      "numofFires": 2321,
+      "acresBurned": 429564
+    },
+    "2018":{
+      "numofFires": 2000,
+      "acresBurned": 165356
+    },
+    "2019":{
+      "numofFires": 1869,
+      "acresBurned": 384942
+    }
+  },
+  "California": {
+    "2010": {
+      "numofFires": 6554,
+      "acresBurned": 109529
+    },
+    "2011":{
+      "numofFires": 7989,
+      "acresBurned": 126854
+    },
+    "2012":{
+      "numofFires": 7950,
+      "acresBurned": 869599
+    },
+    "2013":{
+      "numofFires": 9907,
+      "acresBurned": 577675
+    },
+    "2014":{
+      "numofFires": 7865,
+      "acresBurned": 555044
+    },
+    "2015":{
+      "numofFires": 8745,
+      "acresBurned": 893362
+    },
+    "2016":{
+      "numofFires": 7349,
+      "acresBurned": 560815
+    },
+    "2017":{
+      "numofFires": 9560,
+      "acresBurned": 1266224
+    },
+    "2018":{
+      "numofFires": 8054,
+      "acresBurned": 1823153
+    },
+    "2019":{
+      "numofFires": 8194,
+      "acresBurned": 259148
+    }
+  },
+  "Colorado": {
+    "2010": {
+      "numofFires": 1169,
+      "acresBurned": 44020
+    },
+    "2011":{
+      "numofFires": 1286,
+      "acresBurned": 161167
+    },
+    "2012":{
+      "numofFires": 1498,
+      "acresBurned": 246445
+    },
+    "2013":{
+      "numofFires": 1176,
+      "acresBurned": 195145
+    },
+    "2014":{
+      "numofFires": 830,
+      "acresBurned": 24949
+    },
+    "2015":{
+      "numofFires": 709,
+      "acresBurned": 22602
+    },
+    "2016":{
+      "numofFires": 1190,
+      "acresBurned": 129495
+    },
+    "2017":{
+      "numofFires": 967,
+      "acresBurned": 111667
+    },
+    "2018":{
+      "numofFires": 1328,
+      "acresBurned": 475803
+    },
+    "2019":{
+      "numofFires": 857,
+      "acresBurned": 40392
+    }
+  },
+  "Idaho": {
+    "2010": {
+      "numofFires": 984,
+      "acresBurned": 642997
+    },
+    "2011":{
+      "numofFires": 1094,
+      "acresBurned": 384103
+    },
+    "2012":{
+      "numofFires": 1149,
+      "acresBurned": 1667654
+    },
+    "2013":{
+      "numofFires": 1471,
+      "acresBurned": 722204
+    },
+    "2014":{
+      "numofFires": 1180,
+      "acresBurned": 189430
+    },
+    "2015":{
+      "numofFires": 1324,
+      "acresBurned": 804094
+    },
+    "2016":{
+      "numofFires": 630,
+      "acresBurned": 361649
+    },
+    "2017":{
+      "numofFires": 1598,
+      "acresBurned": 686262
+    },
+    "2018":{
+      "numofFires": 1132,
+      "acresBurned": 604481
+    },
+    "2019":{
+      "numofFires": 960,
+      "acresBurned": 284026
+    }
+  },
+  "Montana": {
+    "2010": {
+      "numofFires": 1397,
+      "acresBurned": 22274
+    },
+    "2011":{
+      "numofFires": 2732,
+      "acresBurned": 55395
+    },
+    "2012":{
+      "numofFires": 701,
+      "acresBurned": 26456
+    },
+    "2013":{
+      "numofFires": 51,
+      "acresBurned": 1660
+    },
+    "2014":{
+      "numofFires": 105,
+      "acresBurned": 5607
+    },
+    "2015":{
+      "numofFires": 3161,
+      "acresBurned": 29893
+    },
+    "2016":{
+      "numofFires": 2610,
+      "acresBurned": 32134
+    },
+    "2017":{
+      "numofFires": 3398,
+      "acresBurned": 8459
+    },
+    "2018":{
+      "numofFires": 1342,
+      "acresBurned": 97814
+    },
+    "2019":{
+      "numofFires": 1474,
+      "acresBurned": 64835
+    }
+  },
+  "Nevada": {
+    "2010": {
+      "numofFires": 487,
+      "acresBurned": 23869
+    },
+    "2011":{
+      "numofFires": 817,
+      "acresBurned": 424170
+    },
+    "2012":{
+      "numofFires": 944,
+      "acresBurned": 613126
+    },
+    "2013":{
+      "numofFires": 763,
+      "acresBurned": 162907
+    },
+    "2014":{
+      "numofFires": 531,
+      "acresBurned": 59252
+    },
+    "2015":{
+      "numofFires": 551,
+      "acresBurned": 42479
+    },
+    "2016":{
+      "numofFires": 467,
+      "acresBurned": 265156
+    },
+    "2017":{
+      "numofFires": 768,
+      "acresBurned": 1329289
+    },
+    "2018":{
+      "numofFires": 649,
+      "acresBurned": 1001966
+    },
+    "2019":{
+      "numofFires": 562,
+      "acresBurned": 82282
+    }
+  },
+  "New Mexico": {
+    "2010": {
+      "numofFires": 998,
+      "acresBurned": 233056
+    },
+    "2011":{
+      "numofFires": 1875,
+      "acresBurned": 1286487
+    },
+    "2012":{
+      "numofFires": 1029,
+      "acresBurned": 372497
+    },
+    "2013":{
+      "numofFires": 1064,
+      "acresBurned": 221951
+    },
+    "2014":{
+      "numofFires": 728,
+      "acresBurned": 23440
+    },
+    "2015":{
+      "numofFires": 696,
+      "acresBurned": 44104
+    },
+    "2016":{
+      "numofFires": 1240,
+      "acresBurned": 212425
+    },
+    "2017":{
+      "numofFires": 813,
+      "acresBurned": 141663
+    },
+    "2018":{
+      "numofFires": 1334,
+      "acresBurned": 382344
+    },
+    "2019":{
+      "numofFires": 859,
+      "acresBurned": 79887
+    }
+  },
+  "Oregon": {
+    "2010": {
+      "numofFires": 1315,
+      "acresBurned": 93731
+    },
+    "2011":{
+      "numofFires": 1151,
+      "acresBurned": 285712
+    },
+    "2012":{
+      "numofFires": 963,
+      "acresBurned": 1256049
+    },
+    "2013":{
+      "numofFires": 2848,
+      "acresBurned": 350786
+    },
+    "2014":{
+      "numofFires": 3087,
+      "acresBurned": 984629
+    },
+    "2015":{
+      "numofFires": 2588,
+      "acresBurned": 685809
+    },
+    "2016":{
+      "numofFires": 1245,
+      "acresBurned": 219509
+    },
+    "2017":{
+      "numofFires": 2049,
+      "acresBurned": 714520
+    },
+    "2018":{
+      "numofFires": 2019,
+      "acresBurned": 897263
+    },
+    "2019":{
+      "numofFires": 2293,
+      "acresBurned": 79732
+    }
+  },
+  "Utah": {
+    "2010": {
+      "numofFires": 1050,
+      "acresBurned": 64781
+    },
+    "2011":{
+      "numofFires": 1102,
+      "acresBurned": 62783
+    },
+    "2012":{
+      "numofFires": 1534,
+      "acresBurned": 415267
+    },
+    "2013":{
+      "numofFires": 1276,
+      "acresBurned": 70282
+    },
+    "2014":{
+      "numofFires": 1035,
+      "acresBurned": 28255
+    },
+    "2015":{
+      "numofFires": 930,
+      "acresBurned": 10203
+    },
+    "2016":{
+      "numofFires": 1078,
+      "acresBurned": 101096
+    },
+    "2017":{
+      "numofFires": 1166,
+      "acresBurned": 249829
+    },
+    "2018":{
+      "numofFires": 1333,
+      "acresBurned": 438983
+    },
+    "2019":{
+      "numofFires": 1025,
+      "acresBurned": 92380
+    }
+  },
+  "Washington": {
+    "2010": {
+      "numofFires": 870,
+      "acresBurned": 56820
+    },
+    "2011":{
+      "numofFires": 993,
+      "acresBurned": 17480
+    },
+    "2012":{
+      "numofFires": 1342,
+      "acresBurned": 259526
+    },
+    "2013":{
+      "numofFires": 1527,
+      "acresBurned": 152603
+    },
+    "2014":{
+      "numofFires": 1480,
+      "acresBurned": 386972
+    },
+    "2015":{
+      "numofFires": 2013,
+      "acresBurned": 1137664
+    },
+    "2016":{
+      "numofFires": 1272,
+      "acresBurned": 293717
+    },
+    "2017":{
+      "numofFires": 1346,
+      "acresBurned": 404223
+    },
+    "2018":{
+      "numofFires": 1743,
+      "acresBurned": 438833
+    },
+    "2019":{
+      "numofFires": 1394,
+      "acresBurned": 169742
+    }
+  },
+  "Wyoming": {
+    "2010": {
+      "numofFires": 533,
+      "acresBurned": 80382
+    },
+    "2011":{
+      "numofFires": 680,
+      "acresBurned": 135878
+    },
+    "2012":{
+      "numofFires": 838,
+      "acresBurned": 357117
+    },
+    "2013":{
+      "numofFires": 4468,
+      "acresBurned": 44016
+    },
+    "2014":{
+      "numofFires": 403,
+      "acresBurned": 7836
+    },
+    "2015":{
+      "numofFires": 512,
+      "acresBurned": 35652
+    },
+    "2016":{
+      "numofFires": 711,
+      "acresBurned": 218077
+    },
+    "2017":{
+      "numofFires": 599,
+      "acresBurned": 90115
+    },
+    "2018":{
+      "numofFires": 611,
+      "acresBurned": 279242
+    },
+    "2019":{
+      "numofFires": 486,
+      "acresBurned": 41857
+    }
+  }
+}
