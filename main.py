@@ -12,6 +12,7 @@ def getResults(coords):
     
     results = {}
     results['temperature'] = getTemperatureResults(coords)
+    #results['flood'] = getFloodStats(coords)
     return results
 
 
@@ -36,11 +37,11 @@ def getTemperatureResults(coords):
     return ans
 
 def getFloodStats(coords):
-    s = 'http://api.geonames.org/findNearbyPlaceNameJSON?lat=' + coords['latitude'] + '&lng=' + coords['longitude'] + '&radius=' + radius + '&cities=cities15000&maxRows=30&username=simonboegs'
+    with open('data/floodStatsNew.json','r') as f:
+        flood = json.load(f)
+    s = 'https://geo.fcc.gov/api/census/area?lat=' + coords['latitude'] + '&lon=' + coords['longitude'] + '&format=json'
     res = requests.get(s)
-    data = res.json()
-    for place in data['geonames']:
-        city = place['toponymName']
-        if city in cityIndex:
-            county = cityIndex[city]['county']
-    
+    data = res.json()['results']
+    state = data['state_name']
+    county = data['county_name']
+    return flood[state][county]
