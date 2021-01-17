@@ -1,0 +1,26 @@
+{
+    "Alaska": [
+        {
+            "name": "Eloise",
+            "category": 3,
+            "year": 1954
+        },
+        {
+            "name": "Andrew",
+            "category": 5,
+            "year": 2020
+        }
+    ],
+    "California": [
+        {
+            "name": "Eloise",
+            "category": 3,
+            "year": 1954
+        },
+        {
+            "name": "Andrew",
+            "category": 5,
+            "year": 2020
+        }
+    ]
+}

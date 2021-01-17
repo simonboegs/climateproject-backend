@@ -34,4 +34,13 @@ def getTemperatureResults(coords):
             'future': heat[city]['future']
             }
     return ans
+
+def getFloodStats(coords):
+    s = 'http://api.geonames.org/findNearbyPlaceNameJSON?lat=' + coords['latitude'] + '&lng=' + coords['longitude'] + '&radius=' + radius + '&cities=cities15000&maxRows=30&username=simonboegs'
+    res = requests.get(s)
+    data = res.json()
+    for place in data['geonames']:
+        city = place['toponymName']
+        if city in cityIndex:
+            county = cityIndex[city]['county']
     
