@@ -1,7 +1,5 @@
 import json
 import requests
-with open('data/cityIndex.json','r') as f:
-    cityIndex = json.load(f)
 
 def getResults(coords):
     #in the frontend we will check if certain elements exist (eg check if hurricanes are supposed to show up on the west coast)
@@ -60,3 +58,23 @@ def getFireStats(coords):
         return fire[state]
     return {}
     
+def getHurricanes(coords):
+    with open('data/hurricane.json','r') as f:
+        hurr = json.load(f)
+    s = 'https://geo.fcc.gov/api/census/area?lat=' + coords['latitude'] + '&lon=' + coords['longitude'] + '&format=json'
+    res = requests.get(s)
+    data = res.json()['results']
+    state = data['state_name']
+    if state not in hurr:
+        return {}
+    num = 0
+    for h in hurr[state]:
+        if int(h['year']) >= 2010 and int(h['category']) >= 4:
+            num += 1
+    if num == 0:
+        return {}
+    ans = {
+            'current': str(round(answer, 2)),
+            'future': int(str(round(answer, 2))) * 1.1
+            }
+    return ans
