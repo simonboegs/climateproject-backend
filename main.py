@@ -55,7 +55,10 @@ def getFireStats(coords):
     data = res.json()['results'][0]
     state = data['state_name']
     if state in fire:
-        return fire[state]
+        total = 0
+        for year in fire[state]:
+            total += fire[state][year][numOfFires]
+        return total
     return {}
     
 def getHurricanes(coords):
