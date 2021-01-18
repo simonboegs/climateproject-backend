@@ -57,7 +57,7 @@ def getFireStats(coords):
     if state in fire:
         total = 0
         for year in fire[state]:
-            total += fire[state][year]['numOfFires']
+            total += fire[state][year]['numofFires']
         return total
     return {}
     
