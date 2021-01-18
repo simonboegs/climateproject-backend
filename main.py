@@ -10,10 +10,9 @@ def getResults(coords):
     
     results = {}
     results['temperature'] = getTemperatureResults(coords)
-    #results['flood'] = getFloodStats(coords)
-    results['fireHistory'] = getFireStats(coords)
-    if results['fireHistory'] == {}:
-        del results['fireHistory']
+    results['flood'] = getFloodStats(coords)
+    results['fire'] = getFireStats(coords)
+    results['hurricane'] = getHurricanes(coords)
     return results
 
 
@@ -38,13 +37,14 @@ def getTemperatureResults(coords):
     return ans
 
 def getFloodStats(coords):
-    with open('data/floodStatsNew.json','r') as f:
+    with open('data/floodStatsStates.json','r') as f:
         flood = json.load(f)
     s = 'https://geo.fcc.gov/api/census/area?lat=' + coords['latitude'] + '&lon=' + coords['longitude'] + '&format=json'
     res = requests.get(s)
-    data = res.json()['results']
+    data = res.json()['results'][0]
     state = data['state_name']
     county = data['county_name']
+    print(state, county)
     return flood[state][county]
 
 def getFireStats(coords):
@@ -52,7 +52,7 @@ def getFireStats(coords):
         fire = json.load(f)
     s = 'https://geo.fcc.gov/api/census/area?lat=' + coords['latitude'] + '&lon=' + coords['longitude'] + '&format=json'
     res = requests.get(s)
-    data = res.json()['results']
+    data = res.json()['results'][0]
     state = data['state_name']
     if state in fire:
         return fire[state]
@@ -63,7 +63,7 @@ def getHurricanes(coords):
         hurr = json.load(f)
     s = 'https://geo.fcc.gov/api/census/area?lat=' + coords['latitude'] + '&lon=' + coords['longitude'] + '&format=json'
     res = requests.get(s)
-    data = res.json()['results']
+    data = res.json()['results'][0]
     state = data['state_name']
     if state not in hurr:
         return {}
